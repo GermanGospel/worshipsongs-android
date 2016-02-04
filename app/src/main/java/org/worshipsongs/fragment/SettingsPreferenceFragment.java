@@ -9,7 +9,7 @@ import android.preference.PreferenceFragment;
 import org.worshipsongs.WorshipSongApplication;
 import org.worshipsongs.activity.UserSettingActivity;
 import org.worshipsongs.picker.ColorPickerPreference;
-import org.worshipsongs.worship.R;
+import org.worshipsongs.R;
 
 /**
  * Author:Seenivasan, Madasamy

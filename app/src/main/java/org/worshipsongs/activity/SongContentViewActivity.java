@@ -19,7 +19,7 @@ import org.worshipsongs.adapter.SongContentPortraitViewerPageAdapter;
 import org.worshipsongs.component.SlidingTabLayout;
 import org.worshipsongs.domain.Setting;
 import org.worshipsongs.service.UserPreferenceSettingService;
-import org.worshipsongs.worship.R;
+import org.worshipsongs.R;
 
 import java.util.ArrayList;
 

@@ -18,15 +18,11 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.PopupWindow;
 
-import org.worshipsongs.WorshipSongApplication;
+import org.worshipsongs.R;
 import org.worshipsongs.dao.SongDao;
 import org.worshipsongs.domain.Song;
-import org.worshipsongs.domain.Verse;
-import org.worshipsongs.service.CommonService;
 import org.worshipsongs.service.SongListAdapterService;
-import org.worshipsongs.service.UtilitiesService;
 import org.worshipsongs.utils.CommonUtils;
-import org.worshipsongs.worship.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

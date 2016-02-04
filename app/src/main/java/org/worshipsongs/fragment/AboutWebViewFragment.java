@@ -13,7 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
 
-import org.worshipsongs.worship.R;
+import org.worshipsongs.R;
 
 /**
  * @Author : Madasamy

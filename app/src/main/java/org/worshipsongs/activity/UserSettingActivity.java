@@ -12,7 +12,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import org.worshipsongs.fragment.SettingsPreferenceFragment;
-import org.worshipsongs.worship.R;
+import org.worshipsongs.R;
 
 /**
  * @Author : Seenivasan

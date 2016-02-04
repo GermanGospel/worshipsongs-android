@@ -15,7 +15,7 @@ import android.widget.ListView;
 import org.worshipsongs.domain.Song;
 import org.worshipsongs.service.CommonService;
 import org.worshipsongs.service.SongListAdapterService;
-import org.worshipsongs.worship.R;
+import org.worshipsongs.R;
 
 import java.util.ArrayList;
 import java.util.List;

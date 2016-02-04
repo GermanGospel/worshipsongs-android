@@ -37,7 +37,7 @@ import org.worshipsongs.domain.Song;
 import org.worshipsongs.domain.Verse;
 import org.worshipsongs.parser.VerseParser;
 import org.worshipsongs.utils.PropertyUtils;
-import org.worshipsongs.worship.R;
+import org.worshipsongs.R;
 
 import java.io.File;
 import java.util.ArrayList;

@@ -15,7 +15,7 @@ import org.worshipsongs.dao.SongBookDao;
 import org.worshipsongs.dao.SongDao;
 import org.worshipsongs.domain.Song;
 import org.worshipsongs.domain.SongBook;
-import org.worshipsongs.worship.R;
+import org.worshipsongs.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

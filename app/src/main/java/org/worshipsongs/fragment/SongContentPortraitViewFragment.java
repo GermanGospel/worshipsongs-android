@@ -23,6 +23,7 @@ import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerSupportFragment;
 
 import org.worshipsongs.CommonConstants;
+import org.worshipsongs.R;
 import org.worshipsongs.WorshipSongApplication;
 import org.worshipsongs.activity.CustomYoutubeBoxActivity;
 import org.worshipsongs.adapter.SongCardViewAdapter;
@@ -32,7 +33,6 @@ import org.worshipsongs.domain.Song;
 import org.worshipsongs.service.SongListAdapterService;
 import org.worshipsongs.service.UserPreferenceSettingService;
 import org.worshipsongs.service.UtilitiesService;
-import org.worshipsongs.worship.R;
 
 import java.util.ArrayList;
 

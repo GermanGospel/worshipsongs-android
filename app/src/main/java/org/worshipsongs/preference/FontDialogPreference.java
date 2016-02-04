@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 import org.worshipsongs.CommonConstants;
 import org.worshipsongs.utils.PropertyUtils;
-import org.worshipsongs.worship.R;
+import org.worshipsongs.R;
 
 /**
  * Author:Madasamy

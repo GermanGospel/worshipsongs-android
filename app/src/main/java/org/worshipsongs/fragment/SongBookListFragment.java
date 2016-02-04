@@ -19,7 +19,7 @@ import org.worshipsongs.dao.SongBookDao;
 import org.worshipsongs.domain.SongBook;
 import org.worshipsongs.service.SongBookListAdapterService;
 import org.worshipsongs.utils.CommonUtils;
-import org.worshipsongs.worship.R;
+import org.worshipsongs.R;
 
 import java.util.ArrayList;
 import java.util.List;

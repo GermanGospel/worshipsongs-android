@@ -23,7 +23,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import org.worshipsongs.worship.R;
+import org.worshipsongs.R;
 
 public class ColorPickerDialog 
 	extends 

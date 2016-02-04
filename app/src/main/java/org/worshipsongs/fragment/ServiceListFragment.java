@@ -36,7 +36,7 @@ import org.worshipsongs.CommonConstants;
 import org.worshipsongs.activity.ServiceSongListActivity;
 import org.worshipsongs.utils.CommonUtils;
 import org.worshipsongs.utils.PropertyUtils;
-import org.worshipsongs.worship.R;
+import org.worshipsongs.R;
 
 import java.io.File;
 import java.io.FileInputStream;

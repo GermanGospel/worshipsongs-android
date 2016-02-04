@@ -18,7 +18,7 @@ import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.worshipsongs.worship.R;
+import org.worshipsongs.R;
 
 /**
  * Created by madasamy on 8/16/15.

@@ -9,7 +9,7 @@ import org.worshipsongs.fragment.AboutWebViewFragment;
 import org.worshipsongs.fragment.HomeTabFragment;
 import org.worshipsongs.fragment.SettingsFragment;
 import org.worshipsongs.fragment.SettingsPreferenceFragment;
-import org.worshipsongs.worship.R;
+import org.worshipsongs.R;
 
 import it.neokree.materialnavigationdrawer.MaterialNavigationDrawer;
 

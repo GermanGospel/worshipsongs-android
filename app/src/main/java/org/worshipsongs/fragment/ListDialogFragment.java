@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AlertDialog;
 
-import org.worshipsongs.worship.R;
+import org.worshipsongs.R;
 
 /**
  * Created by Seenivasan on 5/17/2015.

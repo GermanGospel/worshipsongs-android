@@ -17,11 +17,11 @@ import android.widget.ProgressBar;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.time.DateFormatUtils;
 import org.worshipsongs.CommonConstants;
+import org.worshipsongs.R;
 import org.worshipsongs.WorshipSongApplication;
 import org.worshipsongs.dao.SongDao;
 import org.worshipsongs.task.AsyncGitHubRepositoryTask;
 import org.worshipsongs.utils.PropertyUtils;
-import org.worshipsongs.worship.R;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

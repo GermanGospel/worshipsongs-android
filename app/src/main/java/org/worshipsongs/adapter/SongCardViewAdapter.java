@@ -10,7 +10,7 @@ import android.widget.TextView;
 import org.worshipsongs.domain.ContactInfo;
 import org.worshipsongs.service.CustomTagColorService;
 import org.worshipsongs.service.UserPreferenceSettingService;
-import org.worshipsongs.worship.R;
+import org.worshipsongs.R;
 
 import java.util.List;
 

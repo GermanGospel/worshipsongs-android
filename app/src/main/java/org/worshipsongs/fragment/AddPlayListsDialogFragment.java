@@ -14,7 +14,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import org.worshipsongs.service.CommonService;
-import org.worshipsongs.worship.R;
+import org.worshipsongs.R;
 
 import java.util.ArrayList;
 import java.util.List;

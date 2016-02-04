@@ -10,7 +10,6 @@ android {
         versionCode 6
         versionName "2.5.0-SNAPSHOT"
     }
-
     signingConfigs {
         releaseConfig {
             storeFile file('../.worshipsongs-key.jks')
@@ -40,6 +39,10 @@ android {
             }
         }
     }
+
+    lintOptions {
+        abortOnError false
+    }
     packagingOptions {
         exclude 'META-INF/DEPENDENCIES.txt'
         exclude 'META-INF/LICENSE.txt'
@@ -52,6 +55,23 @@ android {
         exclude 'META-INF/dependencies.txt'
         exclude 'META-INF/LGPL2.1'
     }
+    testOptions {
+        unitTests.all {
+            jvmArgs '-XX:MaxPermSize=512m'
+        }
+    }
+ }
+
+
+sourceSets {
+    unitTest {
+        java.srcDir file('test')
+        resources.srcDir file('test/resources')
+    }
+}
+
+repositories {
+    maven { url "https://jitpack.io" }
 }
 
 dependencies {
@@ -68,5 +88,34 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:22.2.1'
     compile 'com.android.support:cardview-v7:22.2.1'
     compile 'com.getbase:floatingactionbutton:1.10.0'
+    unitTestCompile files("$project.buildDir/classes/release")
     provided 'junit:junit:4.10'
+    testCompile('org.robolectric:robolectric:3.0') {
+        exclude group: 'commons-logging', module: 'commons-logging'
+        exclude group: 'org.apache.httpcomponents', module: 'httpclient'
+        exclude group: 'com.android.support', module: 'appcompat'
+        exclude group: 'com.android.support', module: 'support-v4'
+        exclude group: 'com.android.support', module: 'recyclerview-v7'
+    }
 }
+
+configurations {
+    unitTestCompile.extendsFrom runtime
+    unitTestRuntime.extendsFrom unitTestCompile
+}
+
+task unitTest(type: Test, dependsOn: assemble) {
+    description = "run unit tests"
+    testClassesDir = project.sourceSets.unitTest.output.classesDir
+    classpath = project.sourceSets.unitTest.runtimeClasspath
+    maxHeapSize = "512m"
+}
+
+build.dependsOn unitTest
+
+
+
+
+
+
+
