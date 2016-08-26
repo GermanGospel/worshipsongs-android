@@ -51,3 +51,4 @@ Q. Is there a way I can use these songs in my Church?
 
 Absolutely. In fact, the songs database that is shipped with this app is used by Tamil Methodist Church Subang Jaya. 
 If you want to do that in your Church, you would need to install a software named OpenLP and replace it's default songs database with the one that ships with this app.
+
